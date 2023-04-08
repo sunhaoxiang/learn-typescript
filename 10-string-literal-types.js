@@ -1,1 +1,0 @@
-function handleEvent(ele, event) { }
