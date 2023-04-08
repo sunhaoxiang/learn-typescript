@@ -17,3 +17,5 @@ const add2 = (x: number, y: number, z: number = 10): number {
 }
 
 const add3: (x: number, y: number, z?: number) => number = add2
+
+add3(1, 2)
