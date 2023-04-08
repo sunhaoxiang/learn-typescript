@@ -8,7 +8,7 @@ function add(x: number, y: number, z: number = 10): number {
 
 let result = add(2, 3)
 
-const add2 = (x: number, y: number, z: number = 10): number {
+const add2 = (x: number, y: number, z: number = 10): number => {
   if (typeof z === 'number') {
     return x + y + z
   } else {
@@ -17,5 +17,3 @@ const add2 = (x: number, y: number, z: number = 10): number {
 }
 
 const add3: (x: number, y: number, z?: number) => number = add2
-
-add3(1, 2)
